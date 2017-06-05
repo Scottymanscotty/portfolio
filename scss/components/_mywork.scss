@@ -2,7 +2,24 @@
     @extend .text-center;
     color:$white;
         
-    
+    .work-item-container {
+        
+        &.work-item-1 {
+           
+        }
+        
+        &.work-item-2 {
+          
+        }
+        
+        &.work-item-3 {
+           
+        }
+        
+        &.work-item-4 {
+           
+        }
+    }    
 }
 
 .work-wrapper {
