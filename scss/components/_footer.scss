@@ -1,0 +1,27 @@
+.footer {
+    height: 120px;
+    background: #d4d4d4;
+    color: white;
+    padding: $primary-container-padding;
+    @extend .text-center;   
+    
+    
+    .social-media-link {
+        
+        font-size: 2em;
+        
+        a {
+            display: inline-block;
+            color: rgba(255,255,255,0.8);            
+            margin: 0 4px;
+            height: 36px;
+            width: 36px;
+            font-size: 1.6rem;
+            line-height: 2.3;
+            background-color: rgba(23, 28, 31, 0.6);
+            border-radius: 50px;
+        }
+    }
+    
+    
+}

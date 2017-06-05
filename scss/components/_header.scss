@@ -1,0 +1,48 @@
+
+header {
+    
+}
+#header {
+    
+    line-height: 1.7;
+    position: relative;
+    @include background("https://bgtorrentz.net/wp-content/themes/bgtorrentz/images/bg1.jpg");   
+    padding: $primary-container-padding;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    
+    .header-container {
+          position: absolute;
+          top: 50%;
+          left:50%;
+          transform: translate(-50%,-50%);
+          width: 100%;
+          max-width: 600px;
+    }
+    
+    .header-text {
+        text-align: center;
+        margin-bottom: $primary-margin-seperator;
+    }
+    
+    .header-contact-me {                
+       
+        width: 300px;
+        @extend .center;
+        text-align: center;
+         margin-bottom: $primary-margin-seperator;
+        font-size: 2em;                  
+        
+        
+        a {
+         display:inline-block;
+         padding: 10px;   
+        }
+    }  
+}
+
+.header-chevron-image {
+        @extend .center;
+        text-align: center;
+    }

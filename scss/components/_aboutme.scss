@@ -1,0 +1,23 @@
+#aboutMe {
+   @extend .text-center; 
+    
+    .about-me-profile-image {
+        max-height: 200px;
+        max-width: 200px;
+        border-radius: 10%;   
+        @extend .center;
+        margin-bottom: $primary-margin-seperator;
+    }
+    
+    p {
+        color: #777;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    article i.fa {
+        @include text-shadow(3px, 2px, 0px, #000);
+    }
+    
+    
+}

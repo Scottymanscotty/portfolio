@@ -1,0 +1,30 @@
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;    
+    min-height: 400px;
+}
+
+
+.block {
+        margin-bottom: $primary-margin-seperator;
+        min-height: 220px;
+    
+        @media screen and (min-width: $break-small) {
+            min-height: 240px;
+        }
+ }
+
+.text-center {
+     text-align: center;  
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+    display: block;    
+    margin: 0 auto;
+}

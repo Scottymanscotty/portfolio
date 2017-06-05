@@ -1,0 +1,38 @@
+
+@import 'helpers/mixins';
+@import 'helpers/variables';
+@import 'helpers/extends';
+
+@import 'base/reset',
+        'base/base';
+
+body {
+  font: 16px $font-stack;    
+  color: $primary-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.red {
+    color: red;
+}
+
+p {
+   line-height: 1.6; 
+   font-family: 'Open Sans', sans-serif;
+}
+
+@import 'layout/layout';
+
+@import 'components/nav',
+        'components/header',
+        'components/aboutme',
+        'components/mywork',
+        'components/footer',
+        'components/contactme';
+
+
+        

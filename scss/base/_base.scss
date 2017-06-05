@@ -1,0 +1,29 @@
+// unvisited link 
+a:link {
+   
+}
+
+// visited link 
+a:visited {
+    
+}
+
+// mouse over link
+a {
+    
+}
+a:hover {
+    
+}
+
+// selected link
+a:active {
+    
+}
+
+a { 
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}

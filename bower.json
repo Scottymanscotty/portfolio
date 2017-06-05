@@ -1,0 +1,26 @@
+{
+  "name": "conFusion",
+  "authors": [
+    "Scott Walton <scottymanscotty@gmail.com>"
+  ],
+  "description": "Portfolio Website for Web Developer",
+  "main": "index",
+  "keywords": [
+    "Portfolio",
+    "Web Developer",
+    "It Consultant"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

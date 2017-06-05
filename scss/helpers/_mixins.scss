@@ -1,0 +1,17 @@
+@mixin background($imgpath,$position:center center,$repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;       
+    }
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+@mixin text-shadow($x, $y , $blur, $color) {
+    text-shadow: $x $y $blur $color;
+}

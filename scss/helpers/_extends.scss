@@ -1,0 +1,43 @@
+.standout {
+    font-weight: bold;
+    font-size: $highlighted-font-size;
+}
+
+.icons {
+    font-size: 3em;
+}
+
+.blue {   
+    color: $secondary-color;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    font-size: 3em;
+    color: black;
+}
+
+h2.secondary-title {
+    margin-bottom: 50px;
+    font-size: 2.1em;
+}
+
+.call-to-action {
+    background: rgba(44, 62, 80, 0.7);
+    color: #fff;
+    width: 100%;    
+    border: 2px solid black;
+    transition: all 1s;
+}
+
+.call-to-action:hover {       
+    background: rgb(44, 62, 80);
+    
+}
+
+a.call-to-action:hover {
+    color: white;
+}
